@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+
+.background{
+    background-color:rgba(181, 189, 208, 0.8); 
+  }
+
+
+.Tic{
+    color: rgba(102, 102, 102, 1);
+    text-align: center;
+    font-size: 200%;
+    margin-top: 10%;
+}
+
+
+.menu{
+    float: right;
+    list-style-type:none;
+    position:relative;
+    color: rgba(102, 102, 102, 1);
+    background: transparent;
+    border:  outset rgba(181, 189, 208, 0.8);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    
+}
+
+ul{
+    float: center;
+    list-style-type:none;
+    position:relative;
+    margin-left: 35%;
+}
+
+.Sbtb{
+    color: rgba(102, 102, 102, 1);
+    background: transparent;
+    border:  outset rgba(181, 189, 208, 0.8);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Sbtb:hover{
+    background-color: rgba(102, 102, 102, 0.5);
+    color: rgba(181, 189, 208, 0.8);
+  }
+
+.Mbtb{
+    color: rgba(102, 102, 102, 1);
+    background: transparent;
+    border:  outset rgba(181, 189, 208, 0.8);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Mbtb:hover{
+    background-color: rgba(102, 102, 102, 0.5);
+    color: rgba(181, 189, 208, 0.8);
+  }
+
+.Obtb{
+    color: rgba(102, 102, 102, 1);
+    background: transparent;
+    border:  outset rgba(181, 189, 208, 0.8);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.Obtb:hover{
+    background-color: rgba(102, 102, 102, 0.5);
+    color: rgba(181, 189, 208, 0.8);
+  }
+
