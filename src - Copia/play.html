@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="it">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style_play.css">
+        <title>Tic-Tac-Toe</title>
+    </head>
+    <body id="background">
+        <div id="hormenu"><!-- div che contiene il menu -->
+            <ul> 
+                <li>
+                    <a href="#"><img src="images/imp.png" class="logo"></a> 
+                    <ul>
+                        <li><a href="#">Login</a></li>
+                        <li><a href="#">Servizi</a></li>
+                        <li><a href="#">Lingua </a></li>
+                        <li><a href="#">Negozio</a></li>
+                        <li><a href="#">Valutazione</a></li>
+                    </ul> <!-- Fine del sotto-menu -->
+                </li> 
+            </div>
+
+            <div id="homenu"><!-- div che contiene il menu -->
+                <ul> 
+                    <li>
+                        <a href="#"><img src="images/pngegg.png" class="home"></a> 
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Indietro</a></li>
+                        </ul> <!-- Fine del sotto-menu -->
+                    </li> 
+            </div>
+        <div class="titolo">
+            <h1>Tic Tac Toe</h1>
+        </div>
+
+        <div class="display">
+            Giocatore <span class="display-player playerX">X</span> tocca a te
+        </div>
+
+        <div class="grid-conteiner">
+            <div class="grid-element"></div>
+            <div class="grid-element"></div>
+            <div class="grid-element"></div>
+            <div class="grid-element"></div>
+            <div class="grid-element"></div>
+            <div class="grid-element"></div>
+            <div class="grid-element"></div>
+            <div class="grid-element"></div>
+            <div class="grid-element"></div>
+        </div>
+
+        <div class="display announcer hide"></div>
+
+        <div class="controls">
+            <button id="reset">Reset</button>
+        </div>
+        <script src="javascript/index.js"></script>
+    </body>
+</html>
