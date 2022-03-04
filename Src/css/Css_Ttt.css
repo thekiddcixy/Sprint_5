@@ -43,11 +43,9 @@
   font-family: 'Itim', cursive;
 }
 
-
-.Play, div{
+.Play a,.Play a:visited,.Play a:link {
   text-decoration: none;
   color: rgba(102, 102, 102, 0.5);
-  /* text-align: center; */
 }
 
 .button{
