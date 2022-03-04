@@ -44,20 +44,21 @@
 }
 
 
-.Play{
-  text-decoration: none !important;
-  color: inherit !important;
-  color: rgba(102, 102, 102, 0.5);;
+.Play, div{
+  text-decoration: none;
+  color: rgba(102, 102, 102, 0.5);
+  /* text-align: center; */
 }
+
 .button{
   margin-top: 5%;
-  margin-left: 43.5%;
+  margin-left: 50%;
+  transform: translateX(-50%);
   color: rgba(102, 102, 102, 1);
   background: transparent;
   border:  outset rgba(181, 189, 208, 0.8);
   cursor: pointer;
   transition: all 0.3s ease;
-
 }
 .button:hover{
   background-color: rgba(102, 102, 102, 0.5);
