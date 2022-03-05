@@ -1,0 +1,151 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+
+#background {
+    height: 100vh;
+    padding-top: 1px;
+}
+
+#hormenu {
+    margin-top: 0%;
+    width: 15%;
+}
+#hormenu li{
+    width:20%;
+}
+#hormenu a{
+    display: flex;
+    color: #645447;
+    text-decoration: none;
+}
+#hormenu a:hover{
+    background-color:#645447;
+    color: #E7D2C0;
+}
+#hormenu li ul{
+    display: none
+}
+#hormenu li:hover ul{
+    display:block;
+    position: absolute;
+    margin-top: 0%;
+    margin-right: 10%;
+    border:1px solid #645447;
+    background: #E7D2C0;
+}
+#hormenu li li {  
+    width: 100%; 
+}
+#hormenu li li a {
+    padding: 5% 2% 2% 0%;
+}
+
+#homenu {
+    margin-top: 0%;
+    width: 15%;
+}
+#homenu li{
+    width:20%;
+}
+#homenu a{
+    display: flex;
+    color: #645447;
+    text-decoration: none;
+}
+#homenu a:hover{
+    background-color:#645447;;
+    color: #E7D2C0;
+}
+#homenu li ul{
+    display: none
+}
+#homenu li:hover ul{
+    display:block;
+    position: absolute;
+    margin-top: 0%;
+    margin-right: 10%;
+    border:1px solid #645447;
+    background: #E7D2C0;
+}
+#homenu li li {  
+    width: 100%; 
+}
+#homenu li li a {
+    padding: 5% 2% 2% 0%;
+}
+
+.titolo{
+    color: #645447;
+    text-align: center;
+    font-size: 200%;
+    margin-top: 2%;
+    text-shadow: -3px 1px #E3BB9A;
+}
+
+.display {
+    color: #645447;
+    font-size: 170%;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.hide {
+    display: none;
+}
+
+.grid-conteiner {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    width: 30%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 2%;
+  }
+
+.grid-element {
+    border: 1px solid #645447;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 250%;
+    cursor: pointer;
+}
+
+.playerX {
+    color: #cc365b;
+}
+
+.playerO {
+    color: #3ab655;
+}
+
+.controls {
+    margin-top: 1%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.controls button {
+    color: #645447;
+    border-radius: 17%;
+    border: outset #E7D2C0;
+    font-size: 100%;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #645447;
+}
+
+#reset {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: #E7D2C0;
+}
